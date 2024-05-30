@@ -28,15 +28,35 @@ import img22 from '../img/products/ThietBiDienTu/iphone12promax.jpg'
 import img23 from '../img/products/Sach/HoangTuBe.jpg'
 import img24 from '../img/products/Sach/MuonKiepNhanSinh.jpg'
 import img25 from '../img/products/Sach/NhaGiaKim.jpg'
-
-
-
-
-
-
-
-
-
+import img26 from '../img/products/Sach/ToiTuHoc.jpg'
+import img27 from '../img/products/Sach/DacNhanTam.jpg'
+import img28 from '../img/products/Sach/MatBiec.jpg'
+import img29 from '../img/products/Sach/KhongGiaDinh.jpg'
+import img30 from '../img/products/Sach/YourName.jpg'
+import img31 from '../img/products/Sach/HaiSoPhan.jpg'
+import img32 from '../img/products/Sach/DiTimLeSong.jpg'
+import img33 from '../img/products/ThoiTrang/ao1.jpg'
+import img34 from '../img/products/ThoiTrang/ao2.jpg'
+import img35 from '../img/products/ThoiTrang/ao3.jpg'
+import img36 from '../img/products/ThoiTrang/quan1.jpg'
+import img37 from '../img/products/ThoiTrang/quan2.jpg'
+import img38 from '../img/products/ThoiTrang/ao4.jpg'
+import img39 from '../img/products/ThoiTrang/quan3.jpg'
+import img40 from '../img/products/ThoiTrang/ao5.jpg'
+import img41 from '../img/products/ThoiTrang/quan7.jpg'
+import img42 from '../img/products/ThoiTrang/quan5.jpg'
+import img43 from '../img/products/ThoiTrang/ao6.jpg'
+import img44 from '../img/products/ThoiTrang/quan6.jpg'
+import img45 from '../img/products/DoTieuDung/comfort.jpg'
+import img46 from '../img/products/DoTieuDung/BiaTiger.jpg'
+import img47 from '../img/products/DoTieuDung/haohao.jpg'
+import img48 from '../img/products/DoTieuDung/DauAn.jpg'
+import img49 from '../img/products/DoTieuDung/BiaHeineken.jpg'
+import img50 from '../img/products/DoTieuDung/milo.jpg'
+import img51 from '../img/products/DoTieuDung/omo.jpg'
+import img52 from '../img/products/DoTieuDung/suaTH.jpg'
+import img53 from '../img/products/DoTieuDung/sunlight.jpg'
+import img54 from '../img/products/DoTieuDung/vim.jpg'
 
 export default function Index() {
         const [currentSlide, setCurrentSlide] = useState(0);
@@ -658,7 +678,7 @@ export default function Index() {
 
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img26} alt="" /></div>
                                         <h4 className="product-item_name">Tôi tự học</h4>
                                         <div className="product-item_price">32.900đ</div>
                                         <div className="product-item_action">
@@ -683,7 +703,7 @@ export default function Index() {
 
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img27} alt="" /></div>
                                         <h4 className="product-item_name">Đắc Nhân Tâm</h4>
                                         <div className="product-item_price">56.000đ</div>
                                         <div className="product-item_action">
@@ -708,7 +728,7 @@ export default function Index() {
 
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img28} alt="" /></div>
                                         <h4 className="product-item_name">Mắt biếc</h4>
                                         <div className="product-item_price">77.000đ</div>
                                         <div className="product-item_action">
@@ -732,7 +752,7 @@ export default function Index() {
                                 </div>
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img29} alt="" /></div>
                                         <h4 className="product-item_name">Không Gia Đình</h4>
                                         <div className="product-item_price">75.000đ</div>
                                         <div className="product-item_action">
@@ -756,7 +776,7 @@ export default function Index() {
                                 </div>
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img30} alt="" /></div>
                                         <h4 className="product-item_name">Your Name</h4>
                                         <div className="product-item_price">45.000đ</div>
                                         <div className="product-item_action">
@@ -780,7 +800,7 @@ export default function Index() {
                                 </div>
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img31} alt="" /></div>
                                         <h4 className="product-item_name">Hai Số Phận</h4>
                                         <div className="product-item_price">98.000đ</div>
                                         <div className="product-item_action">
@@ -804,7 +824,7 @@ export default function Index() {
                                 </div>
                                 <div className="grid__column-2-4">
                                     <a className="product-item" href="#">
-                                        <div className="product-item_img" ><img src={img25} alt="" /></div>
+                                        <div className="product-item_img" ><img src={img32} alt="" /></div>
                                         <h4 className="product-item_name">Đi tìm lẽ sống</h4>
                                         <div className="product-item_price">62.000đ</div>
                                         <div className="product-item_action">
@@ -819,6 +839,556 @@ export default function Index() {
                                                 <i className="fas fa-star"></i>
                                             </div>
                                             <span className="product-item_sold">2512 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img33} alt="" /></div>
+                                        <h4 className="product-item_name">Áo Phông</h4>
+                                        <div className="product-item_price">919.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">632 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img34} alt="" /></div>
+                                        <h4 className="product-item_name">Áo Phông</h4>
+                                        <div className="product-item_price">719.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">352 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img35} alt="" /></div>
+                                        <h4 className="product-item_name">Áo Khoác</h4>
+                                        <div className="product-item_price">2.719.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">752 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img36} alt="" /></div>
+                                        <h4 className="product-item_name">Quần Nỉ Họa Tiết</h4>
+                                        <div className="product-item_price">2.219.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">220 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img37} alt="" /></div>
+                                        <h4 className="product-item_name">Quần Nỉ Sọc Đen Trắng</h4>
+                                        <div className="product-item_price">1.219.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">697 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img38} alt="" /></div>
+                                        <h4 className="product-item_name">Áo Phông</h4>
+                                        <div className="product-item_price">1.419.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">612 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img39} alt="" /></div>
+                                        <h4 className="product-item_name">Quần Nỉ Jordan</h4>
+                                        <div className="product-item_price">2.219.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">547 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img40} alt="" /></div>
+                                        <h4 className="product-item_name">Áo Phông</h4>
+                                        <div className="product-item_price">819.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">789 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img41} alt="" /></div>
+                                        <h4 className="product-item_name">Quần Đùi</h4>
+                                        <div className="product-item_price">672.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">456 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img42} alt="" /></div>
+                                        <h4 className="product-item_name">Quần Nỉ Xám</h4>
+                                        <div className="product-item_price">1.109.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">412 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img43} alt="" /></div>
+                                        <h4 className="product-item_name">Áo Khoác</h4>
+                                        <div className="product-item_price">1.819.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">892 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img44} alt="" /></div>
+                                        <h4 className="product-item_name">Quần Đùi</h4>
+                                        <div className="product-item_price">659.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">968 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand">Nike</span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img45} alt="" /></div>
+                                        <h4 className="product-item_name">Nước xả vải Comfort</h4>
+                                        <div className="product-item_price">145.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">6968 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img46} alt="" /></div>
+                                        <h4 className="product-item_name">Thùng bia Tiger</h4>
+                                        <div className="product-item_price">341.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">3168 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img47} alt="" /></div>
+                                        <h4 className="product-item_name">Thùng Mì Tôm Hảo Hảo</h4>
+                                        <div className="product-item_price">108.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">16728 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img48} alt="" /></div>
+                                        <h4 className="product-item_name">Dầu Đậu Nành Simply</h4>
+                                        <div className="product-item_price">108.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">12328 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img49} alt="" /></div>
+                                        <h4 className="product-item_name">Thùng bia Heineken</h4>
+                                        <div className="product-item_price">405.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">6868 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img50} alt="" /></div>
+                                        <h4 className="product-item_name">Lốc 4 hộp Sửa Milo</h4>
+                                        <div className="product-item_price">28.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">9918 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img51} alt="" /></div>
+                                        <h4 className="product-item_name">Túi Nước Giặt Omo Matic</h4>
+                                        <div className="product-item_price">142.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">3467 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img52} alt="" /></div>
+                                        <h4 className="product-item_name">Thùng 48 hộp sữa tươi có đường TH True Milk</h4>
+                                        <div className="product-item_price">259.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">2489 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img53} alt="" /></div>
+                                        <h4 className="product-item_name">Nước Rửa Chén Sunlight</h4>
+                                        <div className="product-item_price">91.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">3582 đã bán</span>
+                                        </div>
+                                        <div className="product-item_origin">
+                                            <span className="product-item_brand"></span>
+                                            <span className="product-item_place">Hà Nội</span>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div className="grid__column-2-4">
+                                    <a className="product-item" href="#">
+                                        <div className="product-item_img" ><img src={img54} alt="" /></div>
+                                        <h4 className="product-item_name">Nước Tẩy Rửa Bồn Cầu Vim</h4>
+                                        <div className="product-item_price">36.000đ</div>
+                                        <div className="product-item_action">
+                                            <span className="product-item_like">
+                                                <i><FaRegHeart/></i>
+                                            </span>
+                                            <div className="product-item_rating">
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="product-item_star-gold fas fa-star"></i>
+                                                <i className="fas fa-star"></i>
+                                            </div>
+                                            <span className="product-item_sold">3475 đã bán</span>
                                         </div>
                                         <div className="product-item_origin">
                                             <span className="product-item_brand"></span>

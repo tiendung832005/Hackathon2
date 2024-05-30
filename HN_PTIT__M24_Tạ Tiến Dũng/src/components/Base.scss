@@ -2,7 +2,6 @@
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
-    /* --primary-color: #ff4800; */
     --primary-color: #F64D36;
 }
 
@@ -11,8 +10,7 @@
 }
 
 .html {
-    font-size: 62.5%;
-    /* 1rem = 10px */
+    font-size: 62.5%; // 1rem = 10px
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
@@ -22,6 +20,10 @@
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .grid__full-width {
@@ -39,6 +41,10 @@
     padding-left: 5px;
     padding-right: 5px;
     width: 16.6667%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .grid__column-2-4 {
@@ -46,29 +52,19 @@
     padding-right: 5px;
     padding-top: 3px;
     width: 20%;
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .grid__column-10 {
     padding-left: 5px;
     padding-right: 5px;
     width: 83.3334%;
-}
 
-/* Button style */
-/* .btn {
-    min-width: 124px;
-    height: 34px;
-    text-decoration: none;
-    border: none;
-    border-radius: 2px;
-    font-size: 1.5rem;
-    padding: 0 12px;
-    outline: none;
-    cursor: pointer;
-    color: var(--text-color);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1.6rem;
-} */
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}
 
